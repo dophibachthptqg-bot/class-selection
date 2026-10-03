@@ -1,0 +1,6 @@
+{
+  "rpgclassselector.title": "Choose Your Class",
+  "rpgclassselector.confirm": "Select",
+  "rpgclassselector.current": "Current class: %s",
+  "rpgclassselector.none": "No class selected"
+}
