@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="rpgclassselector"
+version="1.0.0"
+displayName="RPG Series Class Selector"
+description='''Server-authoritative, configurable class selection for Spell Engine / RPG Series on NeoForge 1.21.1.'''
+
+[[dependencies.rpgclassselector]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.251,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.rpgclassselector]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.rpgclassselector]]
+modId="spell_engine"
+type="required"
+versionRange="[1.10,)"
+ordering="AFTER"
+side="BOTH"
